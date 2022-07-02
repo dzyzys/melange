@@ -40,6 +40,13 @@ public class Czlowiek {
         if(upojenieAlkoholoweWPromilach<0)upojenieAlkoholoweWPromilach=0;
     }
 
+    public void spijWKorsie(double iloscGodzin){
+        upojenieAlkoholoweWPromilach-=iloscGodzin;
+        rekordPiw=0;
+        rekordAlkoholu=0;
+        if(upojenieAlkoholoweWPromilach<0)upojenieAlkoholoweWPromilach=0;
+    }
+
     public void jedzWiejska(double wiejskaWKilo){
         masa+=wiejskaWKilo;
     }
