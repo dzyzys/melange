@@ -6,6 +6,12 @@ public class Czlowiek {
     protected int rekordPiw;
     protected double rekordAlkoholu;
 
+    public Czlowiek(String imie, int wiek, double masa){
+        this.imie = imie;
+        this.wiek = wiek;
+        this.masa = masa;
+    }
+
     public void wypijPiwo(){
         upojenieAlkoholoweWPromilach+=przeliczUpojenie(6, 500);
         rekordPiw++;
@@ -35,8 +41,7 @@ public class Czlowiek {
     }
 
     public void jedzWiejska(double wiejskaWKilo){
-        upojenieAlkoholoweWPromilach-=wiejskaWKilo;
-        if(upojenieAlkoholoweWPromilach<0)upojenieAlkoholoweWPromilach=0;
+        masa+=wiejskaWKilo;
     }
 
     private double przeliczUpojenie( double woltarz, int gramaturaWMl ){

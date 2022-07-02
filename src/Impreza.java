@@ -18,7 +18,7 @@ public class Impreza {
     public void start(){
         String podsumowanie = "w imprezie " +miejsceImprezy+ " udzial wzieli: \n" ;
         for (Czlowiek uczestnik:listaUczesnikow){
-            podsumowanie += uczestnik.getImie() + " ma " + uczestnik.getUpojenieAlkoholoweWPromilach() + " promili" + "\n";
+            podsumowanie += uczestnik.getImie() + " ma " + uczestnik.getUpojenieAlkoholoweWPromilach() + " promili" + " i wazy " + uczestnik.masa + "\n";
         }
         System.out.println(podsumowanie);
     }
