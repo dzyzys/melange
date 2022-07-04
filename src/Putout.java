@@ -13,8 +13,16 @@ public class Putout {
         System.out.println("Kwadrat2: pole " + kwadrat2.obliczPole() + ", obwod " + kwadrat2.obliczObwod());
         System.out.println("Kwadrat3: pole " + kwadrat3.obliczPole() + ", obwod " + kwadrat3.obliczObwod());
 
+        // LISTA KWADRATÓW
+        List<Kwadrat> listaKwadratow = new LinkedList<>();
+        listaKwadratow.add(kwadrat1);
+        listaKwadratow.add(kwadrat2);
+        listaKwadratow.add(kwadrat3);
 
-
+        System.out.println("Lista kwadratów!");
+        for(Kwadrat jakisKwadrat: listaKwadratow) {
+            System.out.println("Kwadrat z listy o polu " + jakisKwadrat.obliczPole());
+        }
 //        System.out.println("glonek jest alkusem");
 //        Glonek glonek1 = new Glonek();
 //        glonek1.setMasa(49);
