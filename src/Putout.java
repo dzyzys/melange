@@ -16,6 +16,9 @@ public class Putout {
         // LISTA KWADRATÓW
         List<Kwadrat> listaKwadratow = new LinkedList<>();
         listaKwadratow.add(kwadrat1);
+        listaKwadratow.add(new Kwadrat(2137));
+        listaKwadratow.add(new Kwadrat(21370));
+        listaKwadratow.add(new Kwadrat(21370));
         listaKwadratow.add(kwadrat2);
         listaKwadratow.add(kwadrat3);
 
