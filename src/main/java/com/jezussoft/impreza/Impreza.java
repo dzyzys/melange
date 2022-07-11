@@ -1,3 +1,5 @@
+package com.jezussoft.impreza;
+
 import java.util.List;
 
 public class Impreza {

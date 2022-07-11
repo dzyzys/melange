@@ -1,3 +1,5 @@
+package com.jezussoft.impreza;
+
 public class Czlowiek {
     protected double upojenieAlkoholoweWPromilach;
     protected String imie;
