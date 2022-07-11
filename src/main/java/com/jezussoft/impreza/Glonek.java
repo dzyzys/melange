@@ -5,6 +5,7 @@ public class Glonek extends Czlowiek {
     public Glonek(){
         super("Adrian Glonek",29,69.69);
     }
+
     @Override
     public void jedzWiejska(double wiejskaWKilo) {
         upojenieAlkoholoweWPromilach -= wiejskaWKilo;
